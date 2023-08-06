@@ -1,0 +1,18 @@
+
+
+@import "tailwindcss/components";
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+
+@import "./chessboard.css";
+@import "./markers.css";
+@import "./arrows.css";
+@import "./promotion-dialog.css";
+
+
+
+@layer base {
+  body {
+    @apply bg-black h-screen w-screen flex items-center justify-center;
+  }
+}
